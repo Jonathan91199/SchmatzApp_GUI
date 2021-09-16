@@ -1,0 +1,29 @@
+
+.ChatsFormDiv{
+    padding: 0 10px 5px;
+    margin-top: 5px;
+    border-bottom: 1px solid #dddddd;
+    height: 4.5vh;
+
+}
+.ChatsFormRow{
+    margin: 0 !important;
+    --bs-gutter-x: 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ChatsFormRow :focus{
+    box-shadow: none !important;
+}
+
+.ChatsFormControl{
+    width: 85%;
+    border: none !important;
+    text-align: right;
+}
+
+.ChatsSeachIcon{
+    color: gray;
+}

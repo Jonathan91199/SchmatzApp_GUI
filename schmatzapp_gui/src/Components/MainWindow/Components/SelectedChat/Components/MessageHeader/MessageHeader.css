@@ -1,0 +1,27 @@
+.MessageHeaderMainDiv{
+    width: 100%;
+    background-color: #ededed;
+    height: 7vh;
+    border-right: 0.5px solid rgb(202, 201, 201);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.MessageHeaderPicture{
+    width: 50px;
+    border-radius: 100%;
+    margin: 0 20px;
+    
+}
+.MessageHeaderOptionIcon{
+    width: 40px;
+    border-radius: 100%;
+    margin:0 20px;
+}
+.MesssageHeaderInfo{
+    direction: rtl;
+}
+.MessageHeaderSeachIcon{
+    color: grey;
+}

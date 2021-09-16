@@ -1,0 +1,5 @@
+.AllChatsDiv{
+    max-height: 84vh;
+    overflow: auto;
+    direction: rtl;
+}

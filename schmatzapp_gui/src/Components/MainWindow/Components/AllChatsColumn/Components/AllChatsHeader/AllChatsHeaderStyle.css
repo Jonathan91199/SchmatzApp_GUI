@@ -1,0 +1,23 @@
+.AllChatsHeaderMainDiv{
+    background-color: #ededed;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.UserImage{
+    
+    border-radius: 100%;
+    padding: 10px;
+  
+    
+}
+.OptionsImage{
+    width: 2rem;
+    margin-right: 15px;
+}
+.ChatOptionsDiv{
+    display: flex;
+    align-items: center;
+}

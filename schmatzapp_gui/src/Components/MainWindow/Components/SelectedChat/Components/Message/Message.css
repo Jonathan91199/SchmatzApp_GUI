@@ -1,0 +1,52 @@
+.MessageMainDiv{
+    width: 100%;
+    display: flex;
+}
+
+.MessageMainRow{
+    margin: 5px 10px !important;  
+    width: fit-content;
+    height: 33px;
+    display: flex;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+}
+.MessageArrowSpan{
+    padding: 0 100px !important;
+    position: absolute;
+    z-index: 100;
+    display: block;
+    width: 8px;
+    height: 13px;
+    /* left: 2px !important; */
+
+}
+.MessageArrowSvg{
+    display: block;
+    
+
+}
+.MessageCheckIconCol{
+    max-width: fit-content;
+    color: #4fc3f7;;
+    padding-right: 0 !important;
+    align-self: flex-end;
+}
+.MessageCheckIcon{
+    font-size: 1.2rem !important;
+}
+.MessageTime{
+    padding: 0 0 0 5px !important;
+    font-size: 12px;
+    align-self: flex-end;
+    color: grey;
+    display: flex;
+    margin-right: 50px;
+}
+.MessageContent{
+    color: #4a4a4a;
+    align-self: center;
+    white-space: nowrap;
+    direction: rtl;
+
+}

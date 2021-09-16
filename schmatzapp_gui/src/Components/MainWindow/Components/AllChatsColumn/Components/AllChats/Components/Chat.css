@@ -1,0 +1,65 @@
+.ChatMainDiv {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    direction: ltr;
+}
+
+.ChatImage {
+    border-radius: 100%;
+    width: 55px;
+}
+
+.ChatImageCol {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 70px;
+}
+.ChatMessageCol{
+    padding: 20px;
+    display: grid;
+    justify-content: flex-end;
+}
+.ChatName{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a4a4a;
+
+}
+.ChatContent{
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+    max-width:350px ;
+    overflow: hidden;
+    direction: rtl;
+    text-overflow: ellipsis;
+    color: #4a4a4a;
+}
+.MessageMetaData{
+    padding: 0 !important;
+    max-width: 40px !important;
+}
+.MessageRecieveTime{
+    margin: 0 !important;
+}
+.UnreadMessageCount{
+    margin: 0 !important;
+
+}
+.UnreadMessageCountInnerDiv{
+    border: 1px solid #06d755;
+    width: 1em;
+    height: fit-content;
+    font-size: 15px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #06d755;
+    color: #f3fdf7;
+}
