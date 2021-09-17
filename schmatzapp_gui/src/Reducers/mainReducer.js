@@ -1,5 +1,7 @@
 let initialState = {
-    test : 123
+    //user
+    isUserLoggedIn : false,
+    userToken : null
 }
 
 export default function mainReducer(state = initialState, action) {

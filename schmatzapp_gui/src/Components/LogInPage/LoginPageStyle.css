@@ -1,0 +1,114 @@
+.LoginMainDiv {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60rem;
+    height: 70vh;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 20%);
+    margin: 0 !important;
+}
+
+.ani {
+    animation: fadeIn 0.5s;
+}
+
+.Register {
+    animation: registerAnimation 0.5s forwards;
+}
+
+
+
+.LoginLogo {
+    animation: fadeIn 0.5s;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.LoginSpan {
+    animation: fadeIn 0.5s;
+    margin-top: -30px;
+    font-size: 70px;
+}
+
+.LoginForm {
+    animation: fadeIn 0.5s;
+    margin: 10px;
+    width: 17rem;
+    background-color: transparent;
+    border: 1px solid #485058;
+}
+.SignInForm{
+    animation: fadeIn 0.5s;
+    margin: 5px;
+    width: 14rem;
+    background-color: transparent;
+    border: 1px solid #485058;
+}
+
+.LoginFormParent :focus {
+    background: transparent;
+    border: 1px solid #485058;
+    box-shadow: 0 0 0 0.25rem rgba(48, 46, 46, 0.377) !important;
+}
+.RegisterFormParent :focus{
+    background: transparent;
+    border: 1px solid #485058;
+    box-shadow: 0 0 0 0.25rem rgba(48, 46, 46, 0.377) !important;
+}
+.RegisterFormParent{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.LoginButton {
+    animation: fadeIn 0.5s;
+    margin: 10px;
+    width: 17rem;
+    background: linear-gradient(90deg, rgb(23, 202, 83), rgb(23, 155, 5)) !important;
+    border: 1px solid rgb(23, 202, 83);
+}
+
+.LoginParentButton :hover {
+    border: 1px solid rgb(15, 138, 56);
+}
+
+.LoginParentButton :focus {
+    border: 1px solid rgb(15, 138, 56);
+    box-shadow: 0 0 0 0.25rem rgba(11, 163, 75, 0.548) !important;
+}
+
+.SignInOption :hover {
+    color: rgb(0, 119, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    user-select: none;
+}
+
+.SignInOption {
+    animation: fadeIn 0.5s;
+    user-select: none;
+}
+
+.RegisterOption {
+    width: fit-content;
+    user-select: none;
+}
+.RegisterRow{
+    width: 100%;
+    margin: 0 !important;
+    /* display: flex; */
+    
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(40%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
