@@ -79,6 +79,22 @@
     border: 1px solid rgb(15, 138, 56);
     box-shadow: 0 0 0 0.25rem rgba(11, 163, 75, 0.548) !important;
 }
+.RegisterButton {
+    animation: fadeIn 0.5s;
+    margin: 10px;
+    width: 17rem;
+    background: linear-gradient(90deg, rgb(23, 202, 202), rgb(5, 155, 123)) !important;
+    border: 1px solid rgb(23, 202, 202);
+}
+
+.RegisterParentButton :hover {
+    border: 1px solid rgb(20, 161, 161);
+}
+
+.RegisterParentButton :focus {
+    border: 1px solid rgb(20, 161, 161);
+    box-shadow: 0 0 0 0.25rem rgba(11, 163, 138, 0.548) !important;
+}
 
 .SignInOption :hover {
     color: rgb(0, 119, 255);
@@ -101,6 +117,12 @@
     margin: 0 !important;
     /* display: flex; */
     
+}
+.BottomRightStatic{
+    width: fit-content !important;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
 }
 
 @keyframes fadeIn {
